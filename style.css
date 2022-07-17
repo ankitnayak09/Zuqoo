@@ -1095,6 +1095,56 @@ textarea {
   color: white;
 }
 
+/* Home: Features */
+.feature-heading li h1 {
+  font-weight: 600;
+  color: #191A15;
+  margin: 20px 0;
+
+  font-size: clamp(3rem, 4vw, 3.6rem);
+  font-weight: 700;
+}
+
+.feature-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  max-width: 450px;
+  /* width: 30%; */
+}
+
+/* #feature-container .row:nth-of-type(2) {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  place-items: center;
+} */
+
+.feature-card p {
+  align-self: baseline;
+}
+
+.feature-card p:nth-of-type(1) {
+  color: #191A15;
+  font-weight: 600;
+  font-size: clamp(1.6rem, 2vw, 1.8rem);
+  padding-left: 60px;
+}
+.feature-card p:nth-of-type(2) {
+  padding-left: 60px;
+  width: 100%;
+}
+
+.feature-card .img-wrapper {
+  max-width: 350px;
+  height: auto;
+}
+
+.feature-card .img-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
 
 /* Home: Benefits */
 
@@ -1115,7 +1165,7 @@ textarea {
   margin: 20px 0;
 }
 
-.img-wrapper {
+.benefit-card .img-wrapper {
   background: #FFFFFF;
   border: 1px solid #E2E2E2;
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
@@ -1123,7 +1173,7 @@ textarea {
   padding: 10px;
 }
 
-.img-wrapper + p {
+.benefit-card .img-wrapper+p {
   color: #191A15;
   font-weight: 500;
   width: 180px;
