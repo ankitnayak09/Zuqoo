@@ -22,6 +22,14 @@ body {
   font-size: 1.6rem;
   font-family: "Inter", sans-serif;
   color: var(--font);
+
+  background: radial-gradient(rgba(218, 84, 84, 0.6), #F9F8FE);
+  background-size: 100vw 100vh;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(100px);
 }
 
 body::-webkit-scrollbar {
@@ -1096,6 +1104,52 @@ textarea {
   color: white;
 }
 
+
+/* Home: Hero Area */
+
+#hero-container h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(3rem, 4vw, 3.6rem);
+  color: #191A15;
+}
+
+#hero-container p {
+  color: #4E4E4E;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#hero-container a.trial {
+  background: #FF3232;
+  border-radius: 40px;
+  padding: 10px 20px;
+  color: #FFFFFF;
+
+  box-shadow: 0px 2px 4px rgba(111, 103, 103, 0.6);
+  margin-right: 30px;
+}
+
+#hero-container a.demo {
+  color: #191A15;
+  font-weight: 500;
+}
+
+#hero-container .img-wrapper img {
+  width: 100%;
+}
+
+#hero-container a img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+#hero-container .hero-footer .text-center {
+  font-size: 40px;
+  font-weight: 700;
+  color: #191A15;
+}
+
 /* Home: Stats */
 #stats-container .stats-heading span:nth-of-type(2) {
   margin-left: 30px;
@@ -1155,6 +1209,10 @@ textarea {
 #product-container .img-wrapper+p {
   color: #111B29;
   font-weight: 500;
+}
+
+#product-container .img-wrapper img {
+  width: 100%;
 }
 
 #product-container .col:nth-of-type(2) .row .col {
@@ -1280,6 +1338,7 @@ textarea {
   font-size: 36px;
   font-family: 'Inter';
 }
+
 #solution-container .row:nth-of-type(1)>section p:nth-of-type(1) {
   color: initial;
   font-weight: 400;
@@ -1344,7 +1403,7 @@ textarea {
   margin: 30px 0;
 }
 
-#case-container .row .case-card>p:nth-of-type(1) {
+#case-container .row .case-card>p.card-heading {
   font-size: clamp(1.4rem, 4vw, 1.8rem);
   font-weight: 700;
 }
@@ -1357,6 +1416,22 @@ textarea {
 
 #case-container .row .case-card:nth-of-type(2) {
   transform: translateY(50%);
+}
+
+@media screen and (max-width: 990px) {
+  #case-container .row .case-card:nth-of-type(2) {
+    transform: translateY(0%);
+  }
+}
+
+#case-container .row:nth-of-type(3) a {
+  background: #FF4040;
+  border: 1px solid #FC5253;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #FFFFFF;
+  margin: 30px;
+  display: inline-block;
 }
 
 /* footer */
