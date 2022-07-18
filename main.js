@@ -4,9 +4,9 @@
 
 // $("#cdn_link").load("/html/link.html");
 
-$(".desk_nav").load("/html/navbar.html");
+$('.desk_nav').load("/html/navbar.html");
 
-$(".footer").load("/html/footer.html");
+$('.footer').load("/html/footer.html");
 // $(".menu").click(function () {
 //   $("#mobile_navbar_container").fadeToggle();
 // });
