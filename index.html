@@ -1,642 +1,618 @@
 <!DOCTYPE html>
 <html lang="en" id="html">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-  <body id="main_app">
-    <section id="desk_nav"></section>
-    <section class="container" id="about-container">
-      <section class="row py-5 align-items-center">
-        <section class="col-lg-6" id="about-left">
-          <ul id="about_left_content">
-            <li class="heading" id="about_left_1">
-              <h1>About US</h1>
-            </li>
-            <li class="topic" id="about_left_2">
-              <h1>We help to get solutions</h1>
-            </li>
-            <li class="team-para" id="about_left_3">
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,Lorem Ipsum is simply dummy text of
-                the printing and typesetting industry.
-              </p>
-            </li>
-            <li class="default_button" id="about_left_4">
-              <button>our team</button>
-            </li>
-          </ul>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body id="main_app">
+  <section class="desk_nav"></section>
+
+  <!-- Hero_Section -->
+  <section class="container" id="hero-container">
+    <section class="row">
+      <section class="col-lg-6 col-md-12 col-12 d-flex flex-column justify-content-around">
+        <h1>At Zuqo, we CREATE SOLUTIONS for tomorrow that is SMATER & VISUALLY ENGAGING than YESTERDAY.</h1>
+        <div class="img-wrapper">
+          <img src="./svg2/Hero/Vector 32.svg" alt="">
+        </div>
+        <p>Zuqo delivers a one-stop customer engagement orchestration platform that is visual, innovative, agile, and
+          future ready</p>
+        <div class="hero-links">
+          <a href="#" class="trial">Try free trial</a>
+          <a href="#" class="demo"><img src="./svg2/Hero/play-button.png">View Demo</a>
+        </div>
+      </section>
+      <section class="col-lg-6 col-md-12 col-12">
+        <div class="img-wrapper">
+          <img src="./svg2/Hero/Group 245.svg" alt="">
+        </div>
+      </section>
+
+      <section class="col-lg-12 hero-footer">
+        <section class="text-center py-5">
+          More than 25,000 teams use Collabs
         </section>
-        <section class="col-lg-6 position-relative" id="about-right">
-          <div class="swiper mySwiper" id="main_carousel">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="/images/images/carousel1.jpg" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img src="/images/images/carousel2.jpg" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img src="/images/images/carousel3.jpg" alt="" />
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
+        <section class="d-flex justify-content-evenly">
+          <div class="img-wrapper">
+            <img src="./svg2/Hero/Unsplash.svg" alt="">
           </div>
-
-          <ul class="swiper-child" id="main_carousel_card">
-            <li class="heading">
-              <h1>Lorem ipsum is simply dummy</h1>
-            </li>
-            <li class="topic">
-              <h1>Looking for help ?</h1>
-            </li>
-            <li>
-              <p>
-                Lorem ipsum is simply dummy text of the printing and typesetting
-                industry
-              </p>
-            </li>
-          </ul>
+          <div class="img-wrapper">
+            <img src="./svg2/Hero/Notion.svg" alt="">
+          </div>
+          <div class="img-wrapper">
+            <img src="./svg2/Hero/Intercom.svg" alt="">
+          </div>
+          <div class="img-wrapper">
+            <img src="./svg2/Hero/descript.svg" alt="">
+          </div>
+          <div class="img-wrapper">
+            <img src="./svg2/Hero/Grammarly.svg" alt="">
+          </div>
         </section>
       </section>
+
     </section>
+  </section>
 
-    <!-- 3card-grid-container -->
-
-    <section class="container" id="about-card-container">
-      <section class="row content-pad flex-column text-center">
-        <section class="col" id="card-top">
-          <section class="topic normal-text">
-            <h1>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an
-            </h1>
-          </section>
-        </section>
-        <section class="col pt-5" id="card-bottom">
-          <ul class="about-card-container" data-aos="flip-down">
-            <li class="about-image">
-              <img src="/svg2/rocket.svg" alt="" />
-            </li>
-            <li class="about-content">
-              <ul>
-                <li class="topic text-black">
-                  <h1>Lorem Ipsum is simply</h1>
-                </li>
-                <li class="para text-black">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s,
-                  </p>
-                </li>
-              </ul>
-            </li>
-          </ul>
-
-          <!-- card -->
-
-          <ul class="about-card-container overflow_hidden" data-aos="flip-down">
-            <li class="about-image">
-              <img src="/svg2/light.svg" alt="" />
-            </li>
-            <li class="about-content">
-              <ul>
-                <li class="topic text-black">
-                  <h1>Lorem Ipsum is simply</h1>
-                </li>
-                <li class="para text-black">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s,
-                  </p>
-                </li>
-              </ul>
-            </li>
-          </ul>
-
-          <ul class="about-card-container overhow-hidden" data-aos="flip-down">
-            <li class="about-image">
-              <img src="/svg2/360.svg" alt="" />
-            </li>
-            <li class="about-content">
-              <ul>
-                <li class="topic text-black">
-                  <h1>Lorem Ipsum is simply</h1>
-                </li>
-                <li class="para text-black">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s,
-                  </p>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </section>
-      </section>
-    </section>
-
-    <!-- story -->
-    <section class="container" id="story_container">
-      <section class="row flex-column pt-5">
-        <section class="col">
-          <section class="row">
-            <section class="col-lg-4" id="story-left">
-              <ul class="topic text-black left-border">
-                <li><h1>Our Story</h1></li>
-              </ul>
-            </section>
-            <section class="col-lg-8 px-5 pt-5" id="story-right ">
-              <ul>
-                <li>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s,Lorem Ipsum is
-                    simply dummy text of the printing and typesetting industry.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s,Lorem Ipsum is
-                    simply dummy text of the printing and typesetting industry.
-                  </p>
-                </li>
-                <li class="story_image" data-aos="flip-up">
-                  <img
-                    style="width: 100%"
-                    src="/images/images/group.jpg"
-                    alt=""
-                  />
-                </li>
-              </ul>
-            </section>
-          </section>
-        </section>
-        <section class="col mt-5">
-          <section class="row pt-5">
-            <section class="col-lg-4" id="story-left">
-              <ul class="topic text-black left-border left-card">
-                <li>
-                  <h1>Our Mission, Vision And Values</h1>
-                </li>
-
-                <li>
-                  <p style="color: rgb(92, 92, 92)">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    sollicitudin erat ut metus imperdiet fermentum.
-                  </p>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="col-lg-8 flex-column overflow-hidden px-5"
-              id="story-right2"
-            >
-              <ul
-                class="mission_card"
-                data-aos="fade-left"
-                data-aos-once="true"
-              >
-                <li>
-                  <h1>Mission</h1>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    sollicitudin erat ut metus imperdiet fermentum. Suspendisse
-                    eget quam consequat, gravida erat ac, mollis augue. Morbi at
-                    lectus nunc.
-                  </p>
-                </li>
-              </ul>
-
-              <ul
-                class="mission_card"
-                data-aos="fade-left"
-                data-aos-delay="100"
-                data-aos-once="true"
-              >
-                <li>
-                  <h1>Vision</h1>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    sollicitudin erat ut metus imperdiet fermentum. Suspendisse
-                    eget quam consequat, gravida erat ac, mollis augue. Morbi at
-                    lectus nunc.
-                  </p>
-                </li>
-              </ul>
-              <ul
-                class="mission_card"
-                data-aos="fade-left"
-                data-aos-delay="200"
-                data-aos-once="true"
-              >
-                <li>
-                  <h1>Values</h1>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    sollicitudin erat ut metus imperdiet fermentum. Suspendisse
-                    eget quam consequat, gravida erat ac, mollis augue. Morbi at
-                    lectus nunc.
-                  </p>
-                </li>
-              </ul>
-            </section>
-          </section>
-        </section>
-      </section>
-    </section>
-
-    <!-- group -->
-
-    <section class="container" id="group-grid-container">
-      <section class="row pt-5">
-        <section class="col overflow-hidden" id="main-group-grid">
-          <img data-aos="fade-right" src="/images/images/group1.jpg" alt="" />
-          <img data-aos="fade-up" src="/images/images/group2.jpg" alt="" />
-          <img data-aos="fade-left" src="/images/images/group3.jpg" alt="" />
-        </section>
-      </section>
-    </section>
-
-    <!-- team -->
-
-    <section class="container" id="team-container">
-      <section class="row content-pad flex-column pt-5">
-        <section class="col" id="team-top">
-          <section class="banner-heading text-center text-black">
-            <h1>Our Team</h1>
-          </section>
-        </section>
-        <section class="col pt-5" id="team-bottom">
-          <section
-            class="team_card rellax"
-            data-rellax-percentage="0.5"
-            data-rellax-speed="1"
-          >
-            <img src="/images/images/team1.jpg" alt="" />
-
-            <ul class="team_inner_card">
-              <li class="team-heading text-white">
-                <h1>Sam Oshay</h1>
-              </li>
-              <li class="team-topic"><h1>Founder & CEO</h1></li>
-              <li class="team-para">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  sollicitudin erat ut metus imperdiet fermentum.
-                </p>
-              </li>
-              <li class="social-icons">
-                <i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i>
-              </li>
-            </ul>
-          </section>
-
-          <section class="team_card">
-            <img src="/images/images/team2.jpg" alt="" />
-            <ul class="team_inner_card">
-              <li class="team-heading text-white">
-                <h1>Sam Oshay</h1>
-              </li>
-              <li class="team-topic"><h1>Founder & CEO</h1></li>
-              <li class="team-para">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  sollicitudin erat ut metus imperdiet fermentum.
-                </p>
-              </li>
-              <li class="social-icons">
-                <i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i>
-              </li>
-            </ul>
-          </section>
-
-          <section
-            class="team_card rellax"
-            data-rellax-percentage="0.5"
-            data-rellax-speed="1"
-          >
-            <img src="/images/images/team3.jpg" alt="" />
-            <ul class="team_inner_card">
-              <li class="team-heading text-white">
-                <h1>Sam Oshay</h1>
-              </li>
-              <li class="team-topic"><h1>Founder & CEO</h1></li>
-              <li class="team-para">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  sollicitudin erat ut metus imperdiet fermentum.
-                </p>
-              </li>
-              <li class="social-icons">
-                <i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i>
-              </li>
-            </ul>
-          </section>
-
-          <section
-            class="team_card rellax"
-            data-rellax-percentage="0.5"
-            data-rellax-speed="1"
-          >
-            <img src="/images/images/team4.jpg" alt="" />
-            <ul class="team_inner_card">
-              <li class="team-heading text-white">
-                <h1>Sam Oshay</h1>
-              </li>
-              <li class="team-topic"><h1>Founder & CEO</h1></li>
-              <li class="team-para">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  sollicitudin erat ut metus imperdiet fermentum.
-                </p>
-              </li>
-              <li class="social-icons">
-                <i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i>
-              </li>
-            </ul>
-          </section>
-
-          <section class="team_card">
-            <img src="/images/images/team5.jpg" alt="" />
-            <ul class="team_inner_card">
-              <li class="team-heading text-white">
-                <h1>Sam Oshay</h1>
-              </li>
-              <li class="team-topic"><h1>Founder & CEO</h1></li>
-              <li class="team-para">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  sollicitudin erat ut metus imperdiet fermentum.
-                </p>
-              </li>
-              <li class="social-icons">
-                <i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i>
-              </li>
-            </ul>
-          </section>
-
-          <section
-            class="team_card rellax"
-            data-rellax-percentage="0.5"
-            data-rellax-speed="1"
-          >
-            <img src="/images/images/team6.jpg" alt="" />
-            <ul class="team_inner_card">
-              <li class="team-heading text-white">
-                <h1>Sam Oshay</h1>
-              </li>
-              <li class="team-topic"><h1>Founder & CEO</h1></li>
-              <li class="team-para">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  sollicitudin erat ut metus imperdiet fermentum.
-                </p>
-              </li>
-              <li class="social-icons">
-                <i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i>
-              </li>
-            </ul>
-          </section>
-
-          <section
-            class="team_card rellax"
-            data-rellax-percentage="0.5"
-            data-rellax-speed="1"
-          >
-            <img src="/images/images/team7.jpg" alt="" />
-            <ul class="team_inner_card">
-              <li class="team-heading text-white">
-                <h1>Sam Oshay</h1>
-              </li>
-              <li class="team-topic"><h1>Founder & CEO</h1></li>
-              <li class="team-para">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  sollicitudin erat ut metus imperdiet fermentum.
-                </p>
-              </li>
-              <li class="social-icons">
-                <i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i>
-              </li>
-            </ul>
-          </section>
-
-          <section class="team_card">
-            <img src="/images/images/team8.jpg" alt="" />
-            <ul class="team_inner_card">
-              <li class="team-heading text-white">
-                <h1>Sam Oshay</h1>
-              </li>
-              <li class="team-topic"><h1>Founder & CEO</h1></li>
-              <li class="team-para">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  sollicitudin erat ut metus imperdiet fermentum.
-                </p>
-              </li>
-              <li class="social-icons">
-                <i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i>
-              </li>
-            </ul>
-          </section>
-
-          <section
-            class="team_card rellax"
-            data-rellax-percentage="0.5"
-            data-rellax-speed="1"
-          >
-            <img src="/images/images/team9.jpg" alt="" />
-            <ul class="team_inner_card">
-              <li class="team-heading text-white">
-                <h1>Sam Oshay</h1>
-              </li>
-              <li class="team-topic"><h1>Founder & CEO</h1></li>
-              <li class="team-para">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  sollicitudin erat ut metus imperdiet fermentum.
-                </p>
-              </li>
-              <li class="social-icons">
-                <i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i
-                ><i class="fa-brands fa-linkedin"></i>
-              </li>
-            </ul>
-          </section>
-        </section>
-      </section>
-    </section>
-
-    <!-- video -->
-
-    <section class="container mt-5" id="video_container">
-      <section class="row content-pad">
-        <section class="video-card">
-          <img src="/images/images/video.jpg" alt="" />
-          <i class="fa-solid fa-circle-play"></i>
-        </section>
-      </section>
-    </section>
-
-    <!-- partners -->
-
-    <section class="container" id="partner_container">
-      <section class="row flex-column content-pad justify-content-center">
-        <section class="col" id="partner-left">
-          <ul class="text-center banner-heading">
-            <li class="text-silver">
-              <h1>Here from our Partners</h1>
-            </li>
-            <li>
-              <p>Explore customer example</p>
-            </li>
-            <li>
-              <p class="text-black">Read more</p>
-            </li>
-          </ul>
-        </section>
-        <section class="col" id="partner-right">
-          <section class="partner_card">
-            <img src="/images/images/des1.jpg" alt="" />
-
-            <img src="/svg2/descript.svg" alt="" />
-          </section>
-
-          <section class="partner_card">
-            <img src="/images/images/des2.jpg" alt="" />
-            <img src="/svg2/descript.svg" alt="" />
-          </section>
-
-          <section class="partner_card">
-            <img src="/images/images/des3.jpg" alt="" />
-            <img src="/svg2/descript.svg" alt="" />
-          </section>
-
-          <section class="partner_card">
-            <img src="/images/images/des4.jpg" alt="" />
-            <img src="/svg2/descript.svg" alt="" />
-          </section>
-
-          <section class="partner_card">
-            <img src="/images/images/des5.jpg" alt="" />
-            <img src="/svg2/descript.svg" alt="" />
-          </section>
-
-          <section class="partner_card">
-            <img src="/images/images/des6.jpg" alt="" />
-            <img src="/svg2/descript.svg" alt="" />
-          </section>
-
-          <section class="partner_card">
-            <img src="/images/images/des7.jpg" alt="" />
-            <img src="/svg2/descript.svg" alt="" />
-          </section>
-
-          <section class="partner_card">
-            <img src="/images/images/des8.jpg" alt="" />
-            <img src="/svg2/descript.svg" alt="" />
-          </section>
-        </section>
-      </section>
-
-      <section
-        class="col d-flex justify-content-center text-center"
-        id="join_container"
-      >
-        <ul>
-          <li class="topic text-black text-center">
-            <h1>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </h1>
+  <!-- Stats -->
+  <section class="container" id="stats-container">
+    <section class="row content-pad">
+      <section class="col-lg-6 col-12">
+        <ul class="stats-heading">
+          <li>
+            <h1>How we support our partner all over the world</h1>
           </li>
+          <li>
+            <p>SaaS become a common delivery model for many business application, including office software, messaging
+              software, payroll processing software, DBMS software, management software</p>
+          </li>
+          <li>
+            <span><img src="./svg2/stats/Group 154.svg" alt=""></span>
+            <span><img src="./svg2/stats/Group 155.svg" alt=""></span>
+          </li>
+        </ul>
+      </section>
 
-          <li class="default_button mt-5">
-            <button>Join Now</button>
+      <section class="col-lg-6 col-12">
+        <div class="para">
+          <div class="img-wrapper">
+            <img src="./svg2/stats/activity 1.svg" alt="">
+          </div>
+          <div>
+            <p>Publishing</p>
+            <p>Plan, collaborate, and publishing your contetn that drivees meaningful engagement and growth for your
+              barnd</p>
+          </div>
+        </div>
+        <div class="para">
+          <div class="img-wrapper">
+            <img src="./svg2/stats/pie-chart 1.svg" alt="">
+          </div>
+          <div>
+            <p>Publishing</p>
+            <p>Plan, collaborate, and publishing your contetn that drivees meaningful engagement and growth for your
+              barnd</p>
+          </div>
+        </div>
+        <div class="para">
+          <div class="img-wrapper">
+            <img src="./svg2/stats/command 1.svg" alt="">
+          </div>
+          <div>
+            <p>Publishing</p>
+            <p>Plan, collaborate, and publishing your contetn that drivees meaningful engagement and growth for your
+              barnd</p>
+          </div>
+        </div>
+      </section>
+
+    </section>
+  </section>
+
+  <!-- Products -->
+  <section class="container" id="product-container">
+    <section class="row flex-column content-pad justify-content-center">
+      <section class="col">
+        <ul class="text-center product-heading">
+          <li>
+            <h1>Our Product</h1>
+          </li>
+          <li>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="col">
+        <div class="row">
+          <div class="col active" data-category="engagement">
+            <div class="img-wrapper">
+              <img src="./svg2/product/Interactive.svg" alt="">
+            </div>
+            <p>Visual Engagement Platform</p>
+          </div>
+          <div class="col" data-category="collab">
+            <div class="img-wrapper">
+              <img src="./svg2/product/Team.svg" alt="">
+            </div>
+            <p>Collaboration</p>
+          </div>
+          <div class="col" data-category="ai">
+            <div class="img-wrapper">
+              <img src="./svg2/product/2890580_ai_artificial intelligence_brain_electronics_robotics_icon 1.svg" alt="">
+            </div>
+            <p>Artificial Intelligence</p>
+          </div>
+          <div class="col" data-category="communication">
+            <div class="img-wrapper">
+              <img src="./svg2/product/Group.svg" alt="">
+            </div>
+            <p>Communication</p>
+          </div>
+          <div class="col" data-category="analytics">
+            <div class="img-wrapper">
+              <img src="./svg2/product/Segmentation.svg" alt="">
+            </div>
+            <p>Analytics</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="col">
+
+
+        <div class="row engagement active">
+          <div class="col-lg-6">
+            <div class="hr"></div>
+            <h1>Visual Engagement Platform</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin erat ut metus imperdiet
+              fermentum. Suspendisse eget quam consequat, gravida erat ac, mollis augue. Morbi at lectus nunc. Praesent
+              non risus ac ligula venenatis aliquam. Nullam consectetur purus a nunc vulputate, a sagittis orci mattis.
+              Suspendisse nec velit non mi sodales blandit. Suspendisse lacinia sollicitudin nulla vel efficitur. Class
+              aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur id posuere
+              lorem. Quisque nec luctus libero.</p>
+            <!-- TODO: Hyperlink -->
+            <a href="#">Get Started</a>
+          </div>
+          <div class="col-lg-6 text-center">
+            <div class="img-wrapper">
+              <img src="./svg2/product/Rectangle 2.svg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="row collab">
+          <div class="col-lg-6">
+            <div class="hr"></div>
+            <h1>Collabration</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin erat ut metus imperdiet
+              fermentum. Suspendisse eget quam consequat, gravida erat ac, mollis augue. Morbi at lectus nunc. Praesent
+              non risus ac ligula venenatis aliquam. Nullam consectetur purus a nunc vulputate, a sagittis orci mattis.
+              Suspendisse nec velit non mi sodales blandit. Suspendisse lacinia sollicitudin nulla vel efficitur. Class
+              aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur id posuere
+              lorem. Quisque nec luctus libero.</p>
+            <!-- TODO: Hyperlink -->
+            <a href="#">Get Started</a>
+          </div>
+          <div class="col-lg-6 text-center">
+            <div class="img-wrapper">
+              <img src="./svg2/product/Rectangle 2(1).svg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="row ai">
+          <div class="col-lg-6">
+            <div class="hr"></div>
+            <h1>Artificial Intelligence</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin erat ut metus imperdiet
+              fermentum. Suspendisse eget quam consequat, gravida erat ac, mollis augue. Morbi at lectus nunc. Praesent
+              non risus ac ligula venenatis aliquam. Nullam consectetur purus a nunc vulputate, a sagittis orci mattis.
+              Suspendisse nec velit non mi sodales blandit. Suspendisse lacinia sollicitudin nulla vel efficitur. Class
+              aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur id posuere
+              lorem. Quisque nec luctus libero.
+            </p>
+            <!-- TODO: Hyperlink -->
+            <a href="#">Get Started</a>
+          </div>
+          <div class="col-lg-6 text-center">
+            <div class="img-wrapper">
+              <img src="./svg2/product/Rectangle 2(2).svg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="row communication">
+          <div class="col-lg-6">
+            <div class="hr"></div>
+            <h1>Communication</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin erat ut metus imperdiet
+              fermentum. Suspendisse eget quam consequat, gravida erat ac, mollis augue. Morbi at lectus nunc. Praesent
+              non risus ac ligula venenatis aliquam. Nullam consectetur purus a nunc vulputate, a sagittis orci mattis.
+              Suspendisse nec velit non mi sodales blandit. Suspendisse lacinia sollicitudin nulla vel efficitur. Class
+              aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur id posuere
+              lorem. Quisque nec luctus libero.
+            </p>
+            <!-- TODO: Hyperlink -->
+            <a href="#">Get Started</a>
+          </div>
+          <div class="col-lg-6 text-center">
+            <div class="img-wrapper">
+              <img src="./svg2/product/Rectangle 4.svg" alt="">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row analytics">
+          <div class="col-lg-6">
+            <div class="hr"></div>
+            <h1>Analytics</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin erat ut metus imperdiet
+              fermentum. Suspendisse eget quam consequat, gravida erat ac, mollis augue. Morbi at lectus nunc. Praesent
+              non risus ac ligula venenatis aliquam. Nullam consectetur purus a nunc vulputate, a sagittis orci mattis.
+              Suspendisse nec velit non mi sodales blandit. Suspendisse lacinia sollicitudin nulla vel efficitur. Class
+              aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur id posuere
+              lorem. Quisque nec luctus libero.
+            </p>
+            <!-- TODO: Hyperlink -->
+            <a href="#">Get Started</a>
+          </div>
+          <div class="col-lg-6 text-center">
+            <div class="img-wrapper">
+              <img src="./svg2/product/Rectangle 4-1.svg" alt="">
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </section>
+  </section>
+
+
+  <!-- Features -->
+  <section class="container" id="feature-container">
+    <section class="row flex-column content-pad justify-content-center">
+      <section class="col">
+        <ul class="text-center feature-heading">
+          <li>
+            <h1>Our Features you can get</h1>
+          </li>
+          <li>
+            <p>We offer a variety of interesting features that you can help increase yor productivity at work and manage
+              your project easily</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="col">
+        <section class="row pt-5 justify-content-center">
+          <section class="feature-card col-xl-4 col-lg-6  col-md-12 col-12">
+            <div class="img-wrapper">
+              <img src="./svg2/features/Rectangle 158.svg" alt="">
+            </div>
+            <p>Collboration Teams</p>
+            <p>Here you can handle projects together with team virtually</p>
+          </section>
+
+          <section class="feature-card col-xl-4 col-lg-6 col-md-12 col-12">
+            <div class="img-wrapper">
+              <img src="./svg2/features/Rectangle 159.svg" alt="">
+            </div>
+            <p>Cloud Storage</p>
+            <p>No need to worry about storage because we provide storage up to 2 TB</p>
+          </section>
+
+          <section class="feature-card col-xl-4 col-lg-6 col-md-12 col-12">
+            <div class="img-wrapper">
+              <img src="./svg2/features/Rectangle 160.svg" alt="">
+            </div>
+            <p>Daily Analytics</p>
+            <p>We always provide useful informatin to make it easier for you every day</p>
+          </section>
+        </section>
+      </section>
+    </section>
+  </section>
+
+  <!-- Solution -->
+  <section class="container" id="solution-container">
+    <section class="row flex-column content-pad justify-content-center">
+      <section class="col" id="benefits-left">
+        <ul class="text-center banner-heading">
+          <li>
+            <h1>Solution</h1>
+          </li>
+          <li>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
           </li>
         </ul>
       </section>
     </section>
 
-    <section id="footer"></section>
+    <section class="row justify-content-center section-card">
+      <div class="col-lg-8 col-md-12 col-12 img-wrapper">
+        <img src="./svg2/solution/Rectangle 2752.svg" alt="">
+      </div>
 
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+      <section class="col-lg-4 col-md-12 col-12 d-flex flex-column justify-content-around">
+        <p>Banking or finance</p>
+        <p>Morbi at lectus nunc. Praesent non risus ac ligula venenatis aliquam. Nullam consectetur purus a nunc
+          vulputate, a sagittis orci mattis. Suspendisse nec velit non mi sodales blandit. Suspendisse lacinia
+          sollicitudin nulla vel efficitur. </p>
+        <a href="#">Learn More</a>
+      </section>
+    </section>
 
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="/swiper.js"></script>
-    <script>
-      AOS.init();
+    <section class="row justify-content-center section-card">
+      <section class="col-lg-4 col-md-12 col-12 d-flex flex-column justify-content-around">
+        <p>Insurance</p>
+        <p>Morbi at lectus nunc. Praesent non risus ac ligula venenatis aliquam. Nullam consectetur purus a nunc
+          vulputate, a sagittis orci mattis. Suspendisse nec velit non mi sodales blandit. Suspendisse lacinia
+          sollicitudin nulla vel efficitur. </p>
+        <a href="#">Learn More</a>
+      </section>
 
-      var rellax = new Rellax(".rellax");
-    </script>
-    <script src="/main.js"></script>
-  </body>
+      <div class="col-lg-8 col-md-12 col-12 img-wrapper">
+        <img src="./svg2/solution/Rectangle 2752 (1).svg" alt="">
+      </div>
+    </section>
+
+    <section class="row justify-content-center section-card">
+      <div class="col-lg-8 col-md-12 col-12 img-wrapper">
+        <img src="./svg2/solution/Rectangle 2752 (2).svg" alt="">
+      </div>
+
+      <section class="col-lg-4 col-md-12 col-12 d-flex flex-column justify-content-around">
+        <p>Hospitality</p>
+        <p>Morbi at lectus nunc. Praesent non risus ac ligula venenatis aliquam. Nullam consectetur purus a nunc
+          vulputate, a sagittis orci mattis. Suspendisse nec velit non mi sodales blandit. Suspendisse lacinia
+          sollicitudin nulla vel efficitur. </p>
+        <a href="#">Learn More</a>
+      </section>
+    </section>
+
+    <section class="row justify-content-center section-card">
+
+      <section class="col-lg-4 col-md-12 col-12 d-flex flex-column justify-content-around">
+        <p>Healthcare</p>
+        <p>Morbi at lectus nunc. Praesent non risus ac ligula venenatis aliquam. Nullam consectetur purus a nunc
+          vulputate, a sagittis orci mattis. Suspendisse nec velit non mi sodales blandit. Suspendisse lacinia
+          sollicitudin nulla vel efficitur. </p>
+        <a href="#">Learn More</a>
+      </section>
+
+      <div class="col-lg-8 col-md-12 col-12 img-wrapper">
+        <img src="./svg2/solution/Rectangle 2752 (3).svg" alt="">
+      </div>
+    </section>
+
+    <section class="row justify-content-center section-card">
+      <div class="col-lg-8 col-md-12 col-12 img-wrapper">
+        <img src="./svg2/solution/Rectangle 2752 (4).svg" alt="">
+      </div>
+
+      <section class="col-lg-4 col-md-12 col-12 d-flex flex-column justify-content-around">
+        <p>Banking or finance</p>
+        <p>Morbi at lectus nunc. Praesent non risus ac ligula venenatis aliquam. Nullam consectetur purus a nunc
+          vulputate, a sagittis orci mattis. Suspendisse nec velit non mi sodales blandit. Suspendisse lacinia
+          sollicitudin nulla vel efficitur. </p>
+        <a href="#">Learn More</a>
+      </section>
+    </section>
+
+  </section>
+
+  <!-- Benefits -->
+  <section class="container" id="benefit-container">
+    <section class="row flex-column content-pad justify-content-center">
+      <section class="col" id="benefits-left">
+        <ul class="text-center banner-heading">
+          <li class="text-silver">
+            <h1>What Benifit Will You Get</h1>
+          </li>
+        </ul>
+      </section>
+
+      <section class="row pt-5">
+        <section class="benefit-card col-lg-4 text-center">
+          <div class="img-wrapper">
+            <img src="./svg2/benefit/bill payment_billing_digital wallet_e-wallet_mobile banking_icon 1.svg" alt="">
+          </div>
+          <p>Online Transection</p>
+        </section>
+
+        <section class="benefit-card  col-lg-4 text-center">
+          <div class="img-wrapper">
+            <img src="./svg2/benefit/Rectangle 161.svg" alt="">
+          </div>
+          <p>Free Consulting With Experet Saving Money</p>
+        </section>
+
+        <section class="benefit-card  col-lg-4 text-center">
+          <div class="img-wrapper">
+            <img src="./svg2/benefit/banking_business_credit card_e-commerce_payment_icon 1.svg" alt="">
+          </div>
+          <p>Online Banking</p>
+        </section>
+
+        <section class="benefit-card  col-lg-6 text-center">
+          <div class="img-wrapper">
+            <img src="./svg2/benefit/money_piggy_save money_savings_icon 1.svg" alt="">
+          </div>
+          <p>Saving Money For The Future</p>
+        </section>
+
+        <section class="benefit-card  col-lg-6 text-center">
+          <div class="img-wrapper">
+            <img src="./svg2/benefit/Vector.svg" alt="">
+          </div>
+          <p>Investment Report Every Month</p>
+        </section>
+      </section>
+    </section>
+  </section>
+
+  <!-- Case Studies  -->
+  <section class="container" id="case-container">
+    <section class="row flex-column content-pad justify-content-center">
+      <section class="col">
+        <ul class="text-center banner-heading">
+          <li>
+            <h1>Case Studies</h1>
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="row justify-content-between">
+      <section class="col-lg-6 case-card">
+        <div class="img-wrapper">
+          <img src="./svg2/caseStudy/Group 18.svg" alt="">
+        </div>
+        <p class="card-heading">The Safest and Easiest way to use the internet.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In integer praesent amet amet egestas. Orci magna
+          dolor nisl at porttitor scelerisque quam. </p>
+        <a href="#">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
+      </section>
+      <section class="col-lg-6 case-card">
+        <div class="img-wrapper">
+          <img src="./svg2/caseStudy/Group 19.svg" alt="">
+        </div>
+        <p class="card-heading">Why drone keeps changing its Branding.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In integer praesent amet amet egestas. Orcina
+          dolor nisl at porttitor.</p>
+        <a href="#">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
+      </section>
+      <section class="col-lg-6 case-card">
+        <div class="img-wrapper">
+          <img src="./svg2/caseStudy/Group 20.svg" alt="">
+        </div>
+        <p class="card-heading">How and why I redesign my folio every year.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In integer praesent amet amet egestas. Orci magna
+          dolor nisl at porttitor scelerisque.</p>
+        <a href="#">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
+      </section>
+    </section>
+
+    <section class="row">
+      <section class="col text-center">
+        <a href="#">See All Case Studies</a>
+      </section>
+    </section>
+
+  </section>
+
+  <!-- Video -->
+  <section class="container mt-5" id="video_container">
+    <section class="row content-pad">
+      <section class="video-card">
+        <img src="/images/images/video.jpg" alt="" />
+        <i class="fa-solid fa-circle-play"></i>
+      </section>
+    </section>
+  </section>
+
+
+  <!-- partners -->
+
+  <section class="container" id="partner_container">
+    <section class="row flex-column content-pad justify-content-center">
+      <section class="col" id="partner-left">
+        <ul class="text-center banner-heading">
+          <li class="text-silver">
+            <h1>Industry Insights</h1>
+          </li>
+          <li>
+            <p>Explore customer examples.</p>
+          </li>
+          <li>
+            <p class="text-black">Read more</p>
+          </li>
+        </ul>
+      </section>
+      <section class="col" id="partner-right">
+        <section class="partner_card">
+          <img src="/images/images/des1.jpg" alt="" />
+
+          <img src="/svg2/descript.svg" alt="" />
+        </section>
+
+        <section class="partner_card">
+          <img src="/images/images/des2.jpg" alt="" />
+          <img src="/svg2/descript.svg" alt="" />
+        </section>
+
+        <section class="partner_card">
+          <img src="/images/images/des3.jpg" alt="" />
+          <img src="/svg2/descript.svg" alt="" />
+        </section>
+
+        <section class="partner_card">
+          <img src="/images/images/des4.jpg" alt="" />
+          <img src="/svg2/descript.svg" alt="" />
+        </section>
+
+        <section class="partner_card">
+          <img src="/images/images/des5.jpg" alt="" />
+          <img src="/svg2/descript.svg" alt="" />
+        </section>
+
+        <section class="partner_card">
+          <img src="/images/images/des6.jpg" alt="" />
+          <img src="/svg2/descript.svg" alt="" />
+        </section>
+
+        <section class="partner_card">
+          <img src="/images/images/des7.jpg" alt="" />
+          <img src="/svg2/descript.svg" alt="" />
+        </section>
+
+        <section class="partner_card">
+          <img src="/images/images/des8.jpg" alt="" />
+          <img src="/svg2/descript.svg" alt="" />
+        </section>
+      </section>
+    </section>
+  </section>
+
+
+  <section class="footer"></section>
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="/swiper.js"></script>
+  <script>
+    AOS.init();
+
+    var rellax = new Rellax(".rellax");
+  </script>
+  <script src="/main.js"></script>
+</body>
+
 </html>
