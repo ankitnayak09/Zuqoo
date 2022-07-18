@@ -11,19 +11,37 @@ $(".footer").load("/html/footer.html");
 //   $("#mobile_navbar_container").fadeToggle();
 // });
 
-$('#product-container .col:nth-of-type(2) .row .col').click(function () {
-    $("#product-container .col:nth-of-type(2) .row .col").each(function() {
-        $(this).removeClass('active');
-    })
-    $(this).addClass('active');
-    
-    $("#product-container .col:nth-of-type(3) .row").each(function(el) {
-        if($(el).attr('id') != $(this).attr("data-category")){
-            $(el).removeClass('active');
-        }
-        else {
-            $(el).addClass('active');
-        }
-    })
+// TODO: Not Working
+// $(document).ready(function() {
+//     $('#product-container .col:nth-of-type(3) .row').each( (el) => {
+//         $(el).hide();
+//     })
+// })
+// $('#product-container .col:nth-of-type(2) .row .col').click(function (element) {
+//     $("#product-container .col:nth-of-type(2) .row .col").each(function() {
+//         $(this).removeClass('active');
+//     })
+//     $(this).addClass('active');
 
-})
+//     var id = $(this).attr("data-category");
+//     $(`#${id}`).show();
+
+// })
+
+$("#product-container .col:nth-of-type(2) .row .col")
+	.first()
+	.addClass("active");
+
+$("#product-container .col:nth-of-type(2) .row .col").click(function () {
+	var $this = $(this);
+	($siblings = $this.parent().children()),
+		(position = $siblings.index($this));
+	console.log(position);
+	$("#product-container .col:nth-of-type(3) .row")
+		.removeClass("active")
+		.eq(position)
+		.addClass("active");
+
+	$siblings.removeClass("active");
+	$this.addClass("active");
+});

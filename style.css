@@ -43,6 +43,7 @@ body ul {
   list-style: none;
 }
 
+
 /* navbar */
 
 #sign_button> :nth-child(1) button {
@@ -1176,7 +1177,13 @@ textarea {
 }
 
 #product-container .col:nth-of-type(3) .row.active {
-  display: block;
+  display: flex;
+}
+
+@media screen and (max-width: 990px) {
+  #product-container .col:nth-of-type(3) .row {
+    padding: 0;
+  }
 }
 
 #product-container .col:nth-of-type(3) .row div .hr {
@@ -1258,6 +1265,36 @@ textarea {
   object-fit: cover;
 }
 
+/* Home: Solution */
+#solution-container img {
+  width: 100%;
+}
+
+#solution-container .row {
+  margin: 50px 0;
+}
+
+#solution-container .row>section p:nth-of-type(1) {
+  color: #000000;
+  font-weight: 600;
+  font-size: 36px;
+  font-family: 'Inter';
+}
+#solution-container .row:nth-of-type(1)>section p:nth-of-type(1) {
+  color: initial;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Inter';
+}
+
+#solution-container .row>section a {
+  background: #D9D9D9;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #000000;
+  width: max-content;
+}
+
 /* Home: Benefits */
 
 #benefit-container {
@@ -1289,6 +1326,37 @@ textarea {
   color: #191A15;
   font-weight: 500;
   width: 180px;
+}
+
+/* HOME: Case Studies */
+#case-container h1 {
+  color: #474F62;
+  font-weight: 700;
+}
+
+
+#case-container img {
+  width: 100%;
+}
+
+#case-container .case-card>p {
+  color: #474F62;
+  margin: 30px 0;
+}
+
+#case-container .row .case-card>p:nth-of-type(1) {
+  font-size: clamp(1.4rem, 4vw, 1.8rem);
+  font-weight: 700;
+}
+
+#case-container .row .case-card>a {
+  font-weight: 500;
+  color: #212121;
+  text-decoration: none;
+}
+
+#case-container .row .case-card:nth-of-type(2) {
+  transform: translateY(50%);
 }
 
 /* footer */
